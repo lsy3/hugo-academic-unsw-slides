@@ -1,0 +1,106 @@
+/**
+ * UNSW theme for reveal.js.
+ *
+ * Based on reveal.js [white theme](https://github.com/hakimel/reveal.js/blob/master/css/theme/source/white.scss)
+ *
+ * By Luke Sy, https://www.lukesy.net/
+ */
+
+body  {
+    background-image: url(unsw-banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.bg-unsw-yellow {
+	background-color: rgba(255,230,0,1);
+}
+
+.reveal p, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal ul, .reveal ol, .reveal li {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3;
+	margin: 5px 5px;
+}
+
+.reveal p .MathJax_Display { font-size: 0.7em; }
+.reveal p { font-size: 0.7em; }
+.reveal h1 { font-size: 1.1em; text-transform: capitalize; }
+.reveal h2 { font-size: 1.1em; }
+.reveal h3 { font-size: 1.0em; }
+.reveal h4 { font-size: 0.7em; }
+.reveal h5 { font-size: 0.5em; }
+.reveal h6 { font-size: 0.3em; }
+.reveal ul, .reveal ol {
+	display: inline;
+	font-size: 0.7em;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.reveal section img[align=center] {
+	display:block; 
+	margin:auto; 
+}
+
+.reveal section img {
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 2px 0px;
+	margin: 0px 0px;
+}
+
+.reveal table td, 
+.reveal table th {
+	padding: 0px 0px;
+	border: none;
+}
+
+.MathJax {
+	font-size: 0.7em;
+}
+
+.slides .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.3em;
+  text-align: center;
+}
+.reveal .footer p {
+  text-align: center;
+}
+
+.reveal .slide-number {
+  right: auto;
+  left: 4%;
+  text-align: center;
+  bottom: 4%;
+  font-size: 0.75em;
+  color: black;
+  background-color: transparent;
+}
+
+.reveal .slides section,
+.reveal .slides section > section {
+	height: 100%;
+	text-align: left;
+}
+
+.multi-column {
+    display: flex;
+	flex-flow: row;
+	height: 100%;
+}
+
+.col1 { flex: 1; position:relative; margin:0 auto;}
+.col2 { flex: 2; position:relative; margin:0 auto;}
+.col3 { flex: 3; position:relative; margin:0 auto;}
+.col4 { flex: 4; position:relative; margin:0 auto;}
+.col5 { flex: 5; position:relative; margin:0 auto;}
+.col6 { flex: 6; position:relative; margin:0 auto;}
