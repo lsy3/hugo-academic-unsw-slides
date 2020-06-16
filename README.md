@@ -1,5 +1,5 @@
 # hugo-academic-unsw-slides
-UNSW Slide theme for Hugo Academic
+University of New South Wales (UNSW) Slide theme for Hugo Academic
 
 Note that Hugo Academic slides is using [Reveal.js](https://revealjs.com/). 
 If you want a UNSW slide theme for Reveal.js, and not just for Hugo Academic slides, this slide theme is a good place to start.
